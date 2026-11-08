@@ -1,148 +1,81 @@
-\# Qiskit Ready
+# Qiskit Ready 🚀
 
+Welcome to **Qiskit Ready!**
 
+This project helps beginners get started with quantum computing using Python and Qiskit.
 
-A ready-to-use Python environment for learning and experimenting with quantum computing using Qiskit.
+You don't need to configure everything manually. Just follow a few simple steps to install the required packages and start experimenting with quantum circuits.
 
+## What Will You Learn?
 
+- What quantum circuits look like.
+- How to use basic quantum gates (X, Y, Z and Hadamard).
+- How to create superposition.
+- How to create a Bell state.
+- How to simulate quantum circuits.
+- How to understand measurement results using graphs.
 
-\## Features
+## Requirements
 
+Before getting started, make sure you have:
 
+- Windows 10 or Windows 11.
+- Python 3.11 installed.
+- Visual Studio Code installed.
+- Python and Jupyter extensions in VS Code.
+- An internet connection for installation.
 
-\- Qiskit quantum circuit development
+## Getting Started
 
-\- Qiskit Aer local quantum simulation
+### Step 1: Download the Project
 
-\- Jupyter Notebook support
+1. Click the green **Code** button on this GitHub page.
+2. Select **Download ZIP**.
+3. Extract the downloaded ZIP file.
 
-\- Quantum gate demonstrations
+### Step 2: Open the Project
 
-\- Bell-state creation and simulation
+Open the extracted `Qiskit-Ready` folder in Visual Studio Code.
 
-\- Circuit visualization using Matplotlib
+### Step 3: Install Qiskit
 
-\- Measurement histograms
+Double-click the `setup.bat` file and wait for the installation to finish.
 
+The script will automatically install everything you need.
 
+### Step 4: Open the Notebook
 
-\## Requirements
+1. Open the `notebooks` folder.
+2. Open `Quantum_Test.ipynb`.
+3. Select the `Python (Qiskit Ready)` kernel.
+4. Run the notebook cells one by one.
 
+That's it! You're ready to explore quantum computing.
 
+## What's Included?
 
-\- Windows 10 or Windows 11
-
-\- Python 3.11
-
-\- Internet connection for initial installation
-
-\- Visual Studio Code
-
-\- VS Code Python and Jupyter extensions
-
-
-
-\## Installation
-
-
-
-1\. Download and extract this project.
-
-2\. Open the extracted `Qiskit Ready` folder.
-
-3\. Double-click `setup.bat`.
-
-4\. Wait for the installation to complete.
-
-
-
-The setup script automatically:
-
-
-
-\- Creates a Python virtual environment.
-
-\- Installs all packages from `requirements.txt`.
-
-\- Registers the Jupyter kernel.
-
-
-
-\## Running the Notebook
-
-
-
-1\. Open the project folder in Visual Studio Code.
-
-2\. Open `notebooks/Quantum\_Test.ipynb`.
-
-3\. Select the `Python (Qiskit Ready)` kernel.
-
-4\. Run the notebook cells.
-
-
-
-\## Installed Technologies
-
-
-
-| Technology | Version |
-
+| File | Purpose |
 |---|---|
+| `notebooks/` | Contains quantum computing experiments |
+| `requirements.txt` | List of required Python packages |
+| `setup.bat` | Automatically installs and configures everything |
+| `README.md` | Installation and usage instructions |
 
-| Python | 3.11 |
+## Technologies Used
 
-| Qiskit | 2.6.2 |
+- Python 3.11
+- Qiskit 2.6.2
+- Qiskit Aer 0.18.2
+- Jupyter Notebook
+- Matplotlib
 
-| Qiskit Aer | 0.18.2 |
+## Important Notes
 
-| Matplotlib | 3.11.2 |
+- An internet connection is required for the initial installation.
+- Qiskit Aer runs simulations locally on your computer.
+- You do not need an IBM Quantum account to run the included experiments.
+- Do not delete the `.venv` folder after installation.
 
-| Jupyter Notebook | 7.6.5 |
+---
 
-
-
-\## Project Structure
-
-
-
-```text
-
-Qiskit Ready/
-
-│
-
-├── notebooks/
-
-│   └── Quantum\_Test.ipynb
-
-│
-
-├── requirements.txt
-
-├── setup.bat
-
-├── README.md
-
-└── .gitignore
-
-```
-
-
-
-The `.venv` directory is generated automatically during installation and should not be distributed.
-
-
-
-\## Important Notes
-
-
-
-\- An internet connection is required for the initial package installation.
-
-\- Qiskit Aer performs local quantum circuit simulation.
-
-\- Actual IBM Quantum hardware access requires separate IBM Quantum account configuration.
-
-\- Do not share the `.venv` directory when distributing this project.
-
+**Happy Learning! ⚛️**
